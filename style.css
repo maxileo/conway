@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    outline: none;
+}
+body{
+    background-color: rgb(62, 89, 86);
+    font-family: 'Righteous', cursive;
+}
+
+.mareContainer{
+    padding-top: 40px;
+    background-color: rgb(62, 89, 86);
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    box-shadow: -8px 12px 30px -7px rgba(0,0,0,0.7);
+}
+
+
+.butoaneContainerMare{
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.butoane{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+}
+
+.btn{
+    background-color: rgb(195, 247, 188);
+    color: rgb(62, 89, 86);
+    font-size: 20px;
+    padding: 10;
+    border-radius: 10px;
+    border:none;
+
+    box-shadow: -8px 12px 30px -7px rgba(0,0,0,0.7);
+
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(119, 168, 113);
+}
+.btnContainer{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h1{
+    color: rgb(195, 247, 188);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+    
+}
+h2{
+    color: rgb(195, 247, 188);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#joc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    
+}
+canvas{
+    border-radius: 20px;
+    box-shadow: -8px 12px 30px -7px rgba(0,0,0,0.7);
+}
+
+
+.simplu{
+    font-size: 20px;
+    color: rgb(195, 247, 188);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
+}
+.subTitlu{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+    border-style: none none solid none;
+}
+
+.spatiu{
+    width: 50%;
+}
+
+
+#fundal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -20;
+}
+
+
+@media only screen and (max-width: 1610px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mareContainer{
+        padding-bottom: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .butoane{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mareContainer{
+        padding-bottom: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .butoane{
+        display: flex;
+        justify-content: center;
+    }
+}

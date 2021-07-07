@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="sketch2.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div id="fundal"></div>
+    <h1> Conway's game of life</h1>
+    <h2> Made by Stefan Casuneanu</h2>
+    <div class="butoaneContainerMare">
+      <div class="butoane">
+        <div class="btnContainer">
+          <button id="start" class="btn"> START </button>
+        </div>
+        <div class="btnContainer">
+          <button id="stop" class="btn"> STOP </button>
+        </div>
+        <div class="btnContainer">
+          <button id="reset" class="btn"> RESET </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div id="joc"> </div>
+        
+        <div class="mareContainer">
+          
+
+          <div class="text">
+            <div class="simplu subTitlu">INSTRUCTIONS</div>
+            <div class="simplu">Click on the squares you want to become alive.       </div>
+            <div class="simplu">Press A to start and stop the game from playing.       </div>
+            <div class="simplu">Press R to reset the game.       </div>
+            <div class="simplu">Press Mouse Wheel to erase a square.       </div>
+            <div class="simplu subTitlu">WHAT IS IT?</div>
+            <div class="simplu spatiuSus">The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician
+               John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
+                One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+            </div>
+            <div class="simplu subTitlu">RULES</div>
+            <div class="simplu">1. Any live cell with two or three live neighbours survives. </div>
+            <div class="simplu">2. Any dead cell with three live neighbours becomes a live cell.</div>
+            <div class="simplu">3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.</div>
+          </div>
+        </div>
+        <div class="spatiu"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
